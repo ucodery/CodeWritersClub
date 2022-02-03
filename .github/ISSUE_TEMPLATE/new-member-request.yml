@@ -8,10 +8,8 @@ body:
     attributes:
       value: |
         Welcome! We are going to get you matched with a great group of people.
-        First we need you to fill out a quick questionnaire. Don't worry,
-        there are no wrong answers; feel free to skip any questions or add
-        details not covered elsewhere that you think may help in matching you
-        to a club.
+        
+        First we need you to fill out a quick questionnaire. Don't worry, there are no wrong answers; feel free to skip any questions or add details not covered elsewhere that you think may help in matching you to a club.
   - type: input
     id: known_languages
     attributes:
@@ -81,3 +79,16 @@ body:
       description: This is only really necessary if you answered you would like to meet in person.
     validations:
       required: false
+  - type: checkboxes
+    id: member_type
+    attributes:
+      label: "Are you interesed in being:"
+      options:
+        - label: a club leader
+        - label: a club participant
+    validations:
+      required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: Is there anything else you think we should know?
