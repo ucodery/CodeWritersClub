@@ -1,0 +1,83 @@
+name: New Member Request
+description: Requests to join a new code writers club
+title: "Request to join from :user"
+labels: ["new member"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome! We are going to get you matched with a great group of people.
+        First we need you to fill out a quick questionnaire. Don't worry,
+        there are no wrong answers; feel free to skip any questions or add
+        details not covered elsewhere that you think may help in matching you
+        to a club.
+  - type: input
+    id: known_languages
+    attributes:
+      label: What languages are you familiar with?
+      description: Since this is a writers club, it would help to know what computer languages you can read or write
+      placeholder: ex. Python, SQL, YAML
+    validations:
+      required: false
+  - type: input
+    id: wanted_languages
+    attributes:
+      label: What languages are you interested in?
+      description: What languages do you want to be exposed to? You do not have to have experience in all of these
+      placeholder: ex. Forth, CSS, GraphQL
+    validations:
+      required: false
+  - type: input
+    id: known_skills
+    attributes:
+      label: What are some areas you consider yourself knowledgable in?
+      description: Everyone has a areas they have focused on or spent more time involved with. What might you bring to the group?
+      placeholder: ex. fuzzy testing, docstring writing, web scraping
+    validations:
+      required: false
+  - type: input
+    id: wanted_skills
+    attributes:
+      label: What are some areas you would like to be exposed to?
+      description: What areas do you want to come up during meetings, either because you want to learn or because you might have a unique insight to add
+      placeholder: ex. ML models, games, Azure pipelines
+    validations:
+      required: false
+  - type: input
+    id: meeting_time
+    attributes:
+      label: When would you like to meet?
+      description: It is up to the individual clubs to set up a regular cadence and schedule meets.
+      placeholder: ex. week days, week nights, weekends
+    validations:
+      required: false
+  - type: input
+    id: meeting_frequency
+    attributes:
+      label: How often would you like to meet?
+      description: It is up to the individual clubs to set up a regular cadence and schedule meets.
+      placeholder: ex. weekly, monthly
+    validations:
+      required: false
+  - type: input
+    id: meeting_type
+    attributes:
+      label: How would you like to meet?
+      description: Would you like to connect in person or virtually? Maybe both, or only after the world changes?
+    validations:
+      required: false
+  - type: input
+    id: tz
+    attributes:
+      label: What timezone are you in?
+      description: This is only really necessary if you answered you would like to meet virtually.
+    validations:
+      required: false
+  - type: input
+    id: locale
+    attributes:
+      label: Where are you located?
+      description: This is only really necessary if you answered you would like to meet in person.
+    validations:
+      required: false
