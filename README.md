@@ -7,4 +7,4 @@ discussion
 
 ### Joining
 If you would like to be a part of one of these clubs, or are interested in
-starting a new club, [open a new member issue](../../issues).
+starting a new club, [open a new member issue](../../issues/new?&template=new-member-request.md&title=Request+to+join+from+%3Auser).
