@@ -11,7 +11,7 @@ body:
         
         First we need you to fill out a quick questionnaire. Don't worry, there are no wrong answers; feel free to skip any questions or add details not covered elsewhere that you think may help in matching you to a club.
         
-        ### Getting to Know You
+        ## Getting to Know You
         Since this is a writers club, it would help to know what computer skills you can read or write. Please share what you hope to get out of the code writers club and what you think you can contribute to one. This will help us match you with a club that is similar enough you can participate while being diverse enough you can learn.
   - type: input
     id: known_languages
@@ -48,7 +48,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Scheduling
+        ## Scheduling
         It is up to the individual clubs to set up a regular cadence and schedule meets. Let's try and get you a club that is similar to your availability.
   - type: input
     id: meeting_time
