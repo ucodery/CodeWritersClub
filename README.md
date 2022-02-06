@@ -1,3 +1,4 @@
+> howdy 🤠 It's great to see you 👋 Note that this project is still in the concept phase. It is chaning a lot, and probably doesn't contain all the information you need. If you would like to help make it better reach out! Open an issue, or submit a PR, or just DM me. If you still want to put your name down for a future club, knowing all this, go ahead and check out [Joining](#Joining) and we won't forget about you!
 # Code Writers Club
 A code writers club is a group of individuals that meet regularly to review each
 other's code projects. They provide a support group that encourage continuing
